@@ -14,6 +14,6 @@ Siga a figura a seguir para conectar o esp-32 ao display tft
 
 Caso o display não funcione altere o arquivo de configuração do driver do display em:
 
-[Arduino Folder]/libraries/TFT_eSPI/User_Setup.h
+.pio\libdeps\esp32doit-devkit-v1\TFT_eSPI\User_Setup.h
 
 para o arquivo salvo nesse repositorio (User_Setup.h)
