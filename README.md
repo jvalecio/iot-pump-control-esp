@@ -17,3 +17,23 @@ Caso o display não funcione altere o arquivo de configuração do driver do dis
 .pio\libdeps\esp32doit-devkit-v1\TFT_eSPI\User_Setup.h
 
 para o arquivo salvo nesse repositorio (User_Setup.h)
+
+## Conexões com os botões
+
+Conecte um dos pinos do bloco de contato dos botões no GND.
+
+Conecte o outro pino de cada botão nos pinos do ESP indicados a seguir:
+
+BOTAO 1 - PINO 32
+
+BOTAO 2 - PINO 33
+
+BOTAO 3 (pause) - PINO 5
+
+## Conexões com os relés
+
+As saídas para os relés são as seguintes:
+
+BOMBA1 - PINO 2
+
+BOMBA2 - PINO 25
